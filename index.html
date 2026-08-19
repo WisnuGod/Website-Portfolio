@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gede Wisnu Agus Purnawan | Mahasiswa Sistem Informasi Undiksha</title>
+  <meta name="description" content="Personal portfolio Gede Wisnu Agus Purnawan, mahasiswa Program Studi Sistem Informasi, Fakultas Teknik dan Kejuruan, Universitas Pendidikan Ganesha." />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner container">
+      <a href="#home" class="navbar__logo">WISNU<span class="accent">.DEV</span></a>
+
+      <nav class="navbar__menu" id="navMenu">
+        <a href="#home" class="nav-link active" data-nav>Home</a>
+        <a href="#about" class="nav-link" data-nav>About</a>
+        <a href="#education" class="nav-link" data-nav>Education</a>
+        <a href="#goals" class="nav-link" data-nav>Goals</a>
+        <a href="#gallery" class="nav-link" data-nav>Gallery</a>
+        <a href="#contact" class="nav-link" data-nav>Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--primary btn--sm navbar__cta">Hire Me</a>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__text" data-animate>
+          <h1 class="hero__title">Hello, I'm <span class="accent">Wisnu</span></h1>
+          <p class="hero__subtitle">Mahasiswa Sistem Informasi Fakultas Teknik dan Kejuruan Universitas Pendidikan Ganesha</p>
+          <p class="hero__desc">Saya adalah mahasiswa baru Program Studi Sistem Informasi yang memiliki ketertarikan terhadap teknologi dan ingin terus mengembangkan kemampuan di bidang sistem informasi, pemrograman, dan teknologi digital.</p>
+          <div class="hero__actions">
+            <a href="#about" class="btn btn--primary" data-scroll>Kenal Saya Lebih Dekat</a>
+            <a href="#gallery" class="btn btn--outline" data-scroll>Lihat Galeri</a>
+          </div>
+        </div>
+        <div class="hero__media" data-animate>
+          <img src="assets/images/profile.jpg" alt="Foto profil Gede Wisnu Agus Purnawan" class="hero__image" width="520" height="420" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title" data-animate><span class="section__bar"></span>About Me</h2>
+
+        <div class="about__grid">
+          <div class="card card--biodata" data-animate>
+            <h3 class="card__title accent">Biodata</h3>
+            <dl class="biodata-list">
+              <div class="biodata-list__row">
+                <dt>Nama Lengkap</dt>
+                <dd>Gede Wisnu Agus Purnawan</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Nama Panggilan</dt>
+                <dd>Wisnu</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>NIM</dt>
+                <dd>2615091125</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>No. Urut Kelompok</dt>
+                <dd>32</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Nama Kelompok</dt>
+                <dd>Boolean</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Alamat Asal</dt>
+                <dd>Banjar Dinas Gambuh</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Asal Sekolah</dt>
+                <dd>SMK TI Bali Global Denpasar</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Jurusan</dt>
+                <dd>Teknik Informatika</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Program Studi</dt>
+                <dd>Sistem Informasi</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Fakultas</dt>
+                <dd>Fakultas Teknik dan Kejuruan</dd>
+              </div>
+              <div class="biodata-list__row">
+                <dt>Universitas</dt>
+                <dd>Universitas Pendidikan Ganesha</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="card card--why" data-animate>
+            <h3 class="card__title accent">Mengapa Sistem Informasi?</h3>
+            <p class="card__text">Saya memilih Jurusan Teknik Informatika dan Program Studi Sistem Informasi karena saya tertarik dengan perkembangan teknologi dan bagaimana teknologi dapat digunakan untuk membantu manusia menyelesaikan berbagai permasalahan. Saya ingin memahami tidak hanya bagaimana sebuah teknologi dibuat, tetapi juga bagaimana sebuah sistem informasi dapat dirancang agar bermanfaat dan mampu mendukung kebutuhan masyarakat maupun organisasi.</p>
+            <div class="pill-flow">
+              <span class="pill">Technology</span>
+              <span class="pill-flow__arrow">&rarr;</span>
+              <span class="pill">Information</span>
+              <span class="pill-flow__arrow">&rarr;</span>
+              <span class="pill">System</span>
+              <span class="pill-flow__arrow">&rarr;</span>
+              <span class="pill">People</span>
+              <span class="pill-flow__arrow">&rarr;</span>
+              <span class="pill">Solution</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section__title" data-animate><span class="section__bar"></span>Education Timeline</h2>
+
+        <div class="timeline">
+          <div class="timeline__item" data-animate>
+            <span class="timeline__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3L1 9l11 6 9-4.9V17h2V9L12 3z" fill="currentColor"/><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" fill="currentColor"/></svg>
+            </span>
+            <div class="card timeline__card">
+              <span class="timeline__year">2026 - Sekarang</span>
+              <h3 class="timeline__title">Universitas Pendidikan Ganesha</h3>
+              <p class="timeline__desc">S1 Sistem Informasi, Fakultas Teknik dan Kejuruan.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item" data-animate>
+            <span class="timeline__icon timeline__icon--muted" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="2"/><path d="M3 9h18" stroke="currentColor" stroke-width="2"/></svg>
+            </span>
+            <div class="card timeline__card">
+              <span class="timeline__year timeline__year--muted">2023 - 2026</span>
+              <h3 class="timeline__title">SMK TI BALI GLOBAL DENPASAR</h3>
+              <p class="timeline__desc">Pendidikan Menengah Atas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES / INTERESTS -->
+    <section id="hobbies" class="section">
+      <div class="container">
+        <h2 class="section__title" data-animate><span class="section__bar"></span>Hobbies &amp; Interests</h2>
+
+        <div class="hobby-grid">
+          <div class="card card--hobby" data-animate>
+            <span class="card--hobby__icon">🎮</span>
+            <h3>GAME</h3>
+          </div>
+          <div class="card card--hobby" data-animate>
+            <span class="card--hobby__icon">📚</span>
+            <h3>BELAJAR</h3>
+          </div>
+          <div class="card card--hobby" data-animate>
+            <span class="card--hobby__icon">🎵</span>
+            <h3>MUSIK</h3>
+          </div>
+          <div class="card card--hobby" data-animate>
+            <span class="card--hobby__icon">📷</span>
+            <h3>FOTO-FOTO</h3>
+          </div>
+        </div>
+
+        <div class="interest-tags" data-animate>
+          <span class="pill">Teknologi</span>
+          <span class="pill">Sistem Informasi</span>
+          <span class="pill">Pemrograman</span>
+          <span class="pill">UI/UX</span>
+          <span class="pill">Website</span>
+          <span class="pill">Digital Technology</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOALS -->
+    <section id="goals" class="section">
+      <div class="container">
+        <h2 class="section__title" data-animate><span class="section__bar"></span>Cita-Cita &amp; Future Goals</h2>
+
+        <div class="card card--goal" data-animate>
+          <h3 class="card__title accent">[CITA-CITA]</h3>
+          <p class="card__text">Saya ingin terus mengembangkan kemampuan di bidang teknologi, memperoleh pengalaman melalui berbagai proyek, dan suatu saat dapat menciptakan solusi digital yang bermanfaat bagi banyak orang.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section__title" data-animate><span class="section__bar"></span>Gallery</h2>
+
+        <div class="gallery-grid">
+          <button class="gallery-item" data-animate data-lightbox-trigger data-full="assets/images/gallery-1.jpg" aria-label="Perbesar foto galeri 1">
+            <img src="assets/images/gallery-1.jpg" alt="Foto galeri 1" loading="lazy" />
+          </button>
+          <button class="gallery-item" data-animate data-lightbox-trigger data-full="assets/images/gallery-2.jpg" aria-label="Perbesar foto galeri 2">
+            <img src="assets/images/gallery-2.jpg" alt="Foto galeri 2" loading="lazy" />
+          </button>
+          <button class="gallery-item" data-animate data-lightbox-trigger data-full="assets/images/gallery-3.jpg" aria-label="Perbesar foto galeri 3">
+            <img src="assets/images/gallery-3.jpg" alt="Foto galeri 3" loading="lazy" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section__title" data-animate><span class="section__bar"></span>Contact</h2>
+
+        <div class="contact-grid" data-animate>
+          <a href="mailto:Gpurnawan794@gmail" class="contact-item">
+            <span class="contact-item__icon">✉️</span>
+            <span>Email</span>
+          </a>
+          <a href="https://www.instagram.com/wisnu.neyy?igsh=MTQ4bDd2Y2V6YWI2Zg==" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <span class="contact-item__icon">📷</span>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.linkedin.com/in/gede-wisnu-agus-purnawan-974aa0397?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <span class="contact-item__icon">💼</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/WisnuGod" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <span class="contact-item__icon">💻</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Tutup galeri">&times;</button>
+    <img src="" alt="" class="lightbox__image" id="lightboxImage" />
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">WISNU<span class="accent">.DEV</span></span>
+      <p class="footer__copy">&copy; 2026 Gede Wisnu Agus Purnawan. Engineered for Precision.</p>
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/in/gede-wisnu-agus-purnawan-974aa0397?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/WisnuGod" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.instagram.com/wisnu.neyy?igsh=MTQ4bDd2Y2V6YWI2Zg==" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
